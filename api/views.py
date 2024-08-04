@@ -14,4 +14,4 @@ class ProductRetrieveUpdateDestroy(generics.RetrieveUpdateDestroyAPIView):
 
 
 def index(request):
-    return HttpResponse("Hello, world. You're at the polls index.")
+    return HttpResponse("Hello welcome to my crud api application")
